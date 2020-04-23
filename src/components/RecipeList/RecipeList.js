@@ -37,8 +37,10 @@ function RecipeList(props) {
               </div>
               <br />
               <div>
-                <strong>Expected time taken:</strong> {recipe.recipe.totalTime}{" "}
-                minutes{" "}
+                <strong>Read more at: </strong>
+                <a href={recipe.recipe.url} target="_blank">
+                  Link
+                </a>
               </div>
             </div>
             <br />
